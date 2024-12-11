@@ -43,6 +43,5 @@ async def main() -> None:
     # Start polling for updates
     await application.run_polling()
 
-if __name__ == '__main__':
-    import asyncio
-    asyncio.run(main())
+if __name__ == "__main__":
+    application.run_polling()
